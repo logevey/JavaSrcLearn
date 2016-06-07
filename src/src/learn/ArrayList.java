@@ -169,7 +169,8 @@ public class ArrayList<E> extends AbstractList<E>
     /**
      * Constructs an empty list with an initial capacity of ten.
      */
-    //初始化一个空的数组列表，初始大小是10？？？？
+    //初始化一个空的数组列表
+    //此处和Vector不同，Vector这里是data大小设置成10
     public ArrayList() {
         super();
         this.elementData = EMPTY_ELEMENTDATA;
